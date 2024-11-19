@@ -10,36 +10,36 @@ app.get("/", (req, res) => {
 
 app.get("/bacheca", (req, res) => {
   const posts = [
-    (post1 = {
+    {
       title: "Ciambellone",
-      content: "Contenuto",
+      content: "Contenuto1",
       image: "/ciambellone.jpeg",
       tags: [""],
-    }),
-    (post2 = {
+    },
+    {
       title: "Cracker alla barbabietola ",
-      content: "Contenuto",
+      content: "Contenuto2",
       image: "/cracker_barbabietola.jpeg",
       tags: [""],
-    }),
-    (post3 = {
+    },
+    {
       title: "Pane fritto dolce",
-      content: "Contenuto",
+      content: "Contenuto3",
       image: "/pane_fritto_dolce.jpeg",
       tags: [""],
-    }),
-    (post4 = {
+    },
+    {
       title: "Pasta alla barbabietola",
-      content: "Contenuto",
+      content: "Contenuto4",
       image: "/pasta_barbabietola.jpeg",
       tags: [""],
-    }),
-    (post5 = {
+    },
+    {
       title: "Torta paesana",
-      content: "Contenuto",
+      content: "Contenuto5",
       image: "/torta_paesana.jpeg",
       tags: [""],
-    }),
+    },
   ];
   res.json(posts);
 });
