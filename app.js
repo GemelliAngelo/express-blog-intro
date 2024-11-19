@@ -13,31 +13,31 @@ app.get("/bacheca", (req, res) => {
     (post1 = {
       title: "Ciambellone",
       content: "Contenuto",
-      image: "",
+      image: "/ciambellone.jpeg",
       tags: [""],
     }),
     (post2 = {
       title: "Cracker alla barbabietola ",
       content: "Contenuto",
-      image: "",
+      image: "/cracker_barbabietola.jpeg",
       tags: [""],
     }),
     (post3 = {
       title: "Pane fritto dolce",
       content: "Contenuto",
-      image: "",
+      image: "/pane_fritto_dolce.jpeg",
       tags: [""],
     }),
     (post4 = {
       title: "Pasta alla barbabietola",
       content: "Contenuto",
-      image: "",
+      image: "/pasta_barbabietola.jpeg",
       tags: [""],
     }),
     (post5 = {
       title: "Torta paesana",
       content: "Contenuto",
-      image: "",
+      image: "/torta_paesana.jpeg",
       tags: [""],
     }),
   ];
