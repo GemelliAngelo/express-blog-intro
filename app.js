@@ -45,5 +45,5 @@ app.get("/bacheca", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log("Il server è online");
+  console.log(`App listening on port ${port}`);
 });
